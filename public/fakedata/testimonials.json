@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "authorName": "Katherine",
+    "authorDesig": "Director, Neptune VR",
+    "img": "/img/testimonials/user/dummy2.png",
+    
+    "desc": "“Our new website has truly transformed our online presence. The creative design and seamless functionality have significantly boosted our conversions. A real game-changer."
+  },
+  {
+    "id": 2,
+    "authorName": "Leslie Mupeta",
+    "authorDesig": "Owner, Handy Cleaning",
+    "img": "/img/testimonials/user/dummy2.png",
+    
+    "desc": "“Moving to the cloud was smooth and efficient. Their tailored solutions enhanced our scalability and security, enabling us to operate with greater confidence."
+  },
+  {
+    "id": 3,
+    "authorName": "Kishor Lamichhane",
+    "authorDesig": "Founder, Sublime Attire Creation",
+    "img": "/img/testimonials/user/dummy2.png",
+    
+    "desc": "“Their innovative digital marketing strategy revolutionized our outreach. We now effectively engage our target audience and see measurable growth."
+  },
+  {
+    "id": 4,
+    "authorName": "Aangat",
+    "authorDesig": "Director, NEPSE Trading",
+    "img": "/img/testimonials/user/dummy2.png",
+    
+    "desc": "“Their reliable IT support means technical issues are resolved quickly, keeping our operations smooth and boosting productivity."
+  }
+]
