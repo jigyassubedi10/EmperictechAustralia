@@ -1,0 +1,27 @@
+[
+  {
+    "name":"About",
+    "path":"/about",
+    "path2":"/about"  
+  },
+    {
+      "name":"Services",
+      "path":"#services",
+      "path2":"/#services"  
+    },
+    {
+      "name":"Works",
+      "path":"#works",
+      "path2":"/#works"  
+    },
+    {
+      "name":"Testimonials",
+      "path":"#testimonials",
+      "path2":"/#testimonials"  
+    },
+    {
+      "name":"Contact",
+      "path":"#contact",
+      "path2":"/#contact"  
+    }
+]

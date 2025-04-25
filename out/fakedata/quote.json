@@ -1,0 +1,32 @@
+{
+    "title": "Get a Free Quote",
+    "description": "Fill in the details below, and we’ll get back to you as soon as possible.",
+    "fields": [
+      {
+        "id": "name",
+        "label": "Full Name",
+        "type": "text",
+        "placeholder": "Enter your name"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "type": "email",
+        "placeholder": "Enter your email"
+      },
+      {
+        "id": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "id": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Enter your message"
+      }
+    ],
+    "buttonText": "Submit"
+  }
+  
