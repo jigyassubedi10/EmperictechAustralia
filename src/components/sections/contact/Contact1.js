@@ -2,6 +2,7 @@ import FormSelect from "@/components/shared/Inputs/FormSelect";
 import Socials from "@/components/shared/socials/Socials";
 import { useState } from "react";
 import React from "react";
+import { FaBuilding } from "react-icons/fa";
 
 const Contact1 = () => {
     const [formData, setFormData] = useState({
@@ -213,22 +214,45 @@ const Contact1 = () => {
                     className="flex  items-center gap-25px position-relative wow fadeInRight"
                     data-wow-delay=".6s"
                   >
-                    {/* <div className="icon-box text-xl flex-shrink-0 w-50px h-50px text-white-color flex justify-center items-center flex-col bg-gradient-primary-2 rounded-full leading-1">
+                    <div className="icon-box text-xl flex-shrink-0 w-50px h-50px text-white-color flex justify-center items-center flex-col bg-gradient-primary-2 rounded-full leading-1">
+                    <FaBuilding className="leading-1 mt-1" />
+                      {/* <i className="flaticon-location leading-1 mt-1"></i> */}
+                    </div>
+                    <div className="text-box">
+                      <p className="text-primary-color-light dark:text-white-color mb-1">
+                        Head Office
+                      </p>
+                      <a
+                        href="https://maps.app.goo.gl/Qzmjgakhe5DA3wLc6"
+                        className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
+                      >
+                        Melbourne VIC 3000,
+                        Australia
+                      </a>
+                     
+                    </div>
+                  </li>
+                  <li
+                    className="flex  items-center gap-25px position-relative wow fadeInRight"
+                    data-wow-delay=".6s"
+                  >
+                    <div className="icon-box text-xl flex-shrink-0 w-50px h-50px text-white-color flex justify-center items-center flex-col bg-gradient-primary-2 rounded-full leading-1">
+                   
                       <i className="flaticon-location leading-1 mt-1"></i>
                     </div>
                     <div className="text-box">
                       <p className="text-primary-color-light dark:text-white-color mb-1">
-                        Address
+                        Contact Office
                       </p>
                       <a
-                        href="https://maps.app.goo.gl/FAtbJK3XTXQdp6Wh8"
+                        href="https://maps.app.goo.gl/M4pA1oLJcjLBe6C38"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
                         Geelong VIC 3218,
                         Australia
                       </a>
                      
-                    </div> */}
+                    </div>
                   </li>
                   {/* <div className="text-box">
                       <p className="text-primary-color-light dark:text-white-color mb-1">
