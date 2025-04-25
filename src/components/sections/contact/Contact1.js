@@ -206,7 +206,7 @@ const Contact1 = () => {
                         href="mailto:info@emperictech.com"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
-                        info@emperictech.com
+                        info@emperictech.com.au
                       </a>
                     </div>
                   </li>
@@ -219,9 +219,9 @@ const Contact1 = () => {
                       {/* <i className="flaticon-location leading-1 mt-1"></i> */}
                     </div>
                     <div className="text-box">
-                      <p className="text-primary-color-light dark:text-white-color mb-1">
+                      {/* <p className="text-primary-color-light dark:text-white-color mb-1">
                         Head Office
-                      </p>
+                      </p> */}
                       <a
                         href="https://maps.app.goo.gl/Qzmjgakhe5DA3wLc6"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
@@ -241,9 +241,9 @@ const Contact1 = () => {
                       <i className="flaticon-location leading-1 mt-1"></i>
                     </div>
                     <div className="text-box">
-                      <p className="text-primary-color-light dark:text-white-color mb-1">
+                      {/* <p className="text-primary-color-light dark:text-white-color mb-1">
                         Contact Office
-                      </p>
+                      </p> */}
                       <a
                         href="https://maps.app.goo.gl/M4pA1oLJcjLBe6C38"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"

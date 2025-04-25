@@ -63,7 +63,7 @@ const Footer = () => {
             <div className="copyright text-gray-color whitespace-nowrap text-sm md:text-base mt-5">
               © 2025 All rights reserved by{" "}
               <Link
-                href="https://emperictech.com"
+                href="https://emperictech.com.au"
                 className="text-white-color hover:text-primary-color"
               >
                 EmpericTech

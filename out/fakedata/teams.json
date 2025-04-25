@@ -57,9 +57,17 @@
       },
       {
         "name": "Gopal Sharma",
-        "role": "Marketing Specialists",
-        "yearsOfExperience": "5+",
-        "keySkills": ["Digital Marketing", "SEO", "Social Media Management"],
+        "role": "Consultant Software Engineer",
+        "yearsOfExperience": "15+",
+        "keySkills": ["Software Architecture", "System Design", "Full Stack Development"],
+        "email": "davidlee@example.com",
+        "image": "/img/teams/3.jpg"
+      },
+      {
+        "name": "Tara Devi",
+        "role": "Consultant Software Engineer",
+        "yearsOfExperience": "15+",
+        "keySkills": ["Software Architecture", "System Design", "Full Stack Development"],
         "email": "davidlee@example.com",
         "image": "/img/teams/3.jpg"
       }
