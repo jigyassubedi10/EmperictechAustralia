@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
 import HeaderContextProvider from "@/context_api/HeaderContext";
-import Preloader from "../others/Preloader";
+// import Preloader from "../others/Preloader";
 import BackToTop from "../others/BackToTop";
 import smoothScroll from "@/libs/smoothScroll";
 import PortfolioRenderContextProvider from "@/context_api/WorkRenderContext";
@@ -27,11 +27,11 @@ export default function AboutWrapper({ children, id, isIndexPage, isInnerPage })
     fetchData();
   }, [id]);
 
-  if (!data) return <Preloader />; // Show Preloader while fetching data
+  // if (!data) return <Preloader />; // Show Preloader while fetching data
 
   return (
     <div>
-      <Preloader />
+      {/* <Preloader /> */}
       <BackToTop />
       <HeaderContextProvider value={{ isIndexPage, isInnerPage }}>
         <Header />

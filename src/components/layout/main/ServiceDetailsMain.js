@@ -16,7 +16,7 @@ const ServiceDetailsMain = () => {
         title={title ? title : "Service Details"}
         text={title ? title : "Service Details"}
         actualItem={"Services"}
-        path="/#works"
+        path="/#services"
       />
       <ServiceDetailsPrimary />
     </main>

@@ -3,7 +3,7 @@
     "id": 1,
     "slug": "web-development",
     "title": "Web Development",
-    "img": "/img/services/2.png",
+    "img": "/img/services/web-development.png",
     "iconName": "flaticon-design",
     "desc": "At EmpericTech, we specialise in crafting cutting-edge, responsive websites that look stunning and perform flawlessly. Our team of experienced developers is dedicated to transforming your ideas into digital realities, helping your business thrive online.",
     "shortDesc": "Engaging websites that captivate your audience.",
@@ -64,7 +64,7 @@
     "id": 2,
     "title": "Cloud Services",
     "slug": "cloud-services",
-    "img": "/img/services/2.png",
+    "img": "/img/services/Cloud-Services.png",
     "iconName": "flaticon-ux-design",
     "desc": "At EmpericTech, we are committed to helping you harness the full potential of cloud technology. Our comprehensive cloud support and services are designed to optimize your business operations, enhance scalability, and improve efficiency.",
     "shortDesc": "Scalable, secure cloud solutions that empower your business.",
@@ -117,7 +117,7 @@
     "id": 3,
     "slug": "it-tech-support",
     "title": "IT/Tech Support",
-    "img": "/img/services/3.png",
+    "img": "/img/services/it-tech.png",
     "iconName": "flaticon-web-design",
     "desc": "At EmpericTech, we understand that technology is the backbone of modern businesses. That's why we're dedicated to providing comprehensive tech and system support services to keep your operations running smoothly and efficiently. ",
     "shortDesc": "Reliable, round-the-clock IT support that keeps your business running smoothly.",
@@ -170,7 +170,7 @@
     "id": 4,
     "slug": "digital-marketing",
     "title": "Digital Marketing",
-    "img": "/img/services/4.png",
+    "img": "/img/services/digital-marketing.png",
     "iconName": "flaticon-3d-movie",
     "desc": "At EmpericTech, we specialize in a holistic approach to online marketing, combining expert social media management with data-driven digital marketing strategies. Our goal is to help businesses establish a strong online presence, engage with their audience, and drive measurable growth through targeted campaigns. Whether you need social media content, paid advertising, or SEO, we tailor our solutions to fit your unique business needs.",
     "shortDesc": "Grow your brand with targeted social media and digital marketing strategies.",
@@ -235,7 +235,7 @@
     "id": 5,
     "slug": "ui-ux-design",
     "title": "UI/UX Design",
-    "img": "/img/services/1.png",
+    "img": "/img/services/ui-ux.png",
     "iconName": "flaticon-3d-movie",
     "desc": "At EmpericTech, we are passionate about creating user-centric designs that not only look stunning but also provide an exceptional user experience. Our team of skilled designers and developers work collaboratively to craft intuitive, engaging, and efficient digital products that meet the unique needs of your business and your users.",
     "shortDesc": "Intuitive, user-friendly designs for exceptional digital experiences.",
@@ -296,7 +296,7 @@
     "id": 6,
     "slug": "cyber-security",
     "title": "Cyber Security",
-    "img": "/img/services/4.png",
+    "img": "/img/services/cybersecurity.png",
     "iconName": "flaticon-3d-movie",
     "desc": "At EmpericTech, we are committed to safeguarding your digital assets against cyber threats. Our team of cybersecurity experts provides comprehensive solutions to protect your business from data breaches, malware, and other online threats. With our cutting-edge technology and proactive approach, we ensure that your sensitive information remains secure and your business operations run smoothly.",
     "shortDesc": "Protect your business from cyber threats with advanced security solutions.",
@@ -361,7 +361,7 @@
     "id": 7,
     "slug": "data-solutions",
     "title": "Data Solutions",
-    "img": "/img/services/4.png",
+    "img": "/img/services/data-analysis.png",
     "iconName": "flaticon-3d-movie",
     "desc": "At EmpericTech, we're passionate about transforming data into actionable insights. We believe that every piece of data holds potential, and our mission is to unlock that potential for your business. With a team of expert analysts and engineers, we specialize in turning complex data into clear strategies that drive growth and innovation.",
     "shortDesc": "Data analysis, integration, and insights for smarter decision-making.",
@@ -422,7 +422,7 @@
     "id": 8,
     "slug": "graphics-design",
     "title": "Graphics & Design",
-    "img": "/img/services/4.png",
+    "img": "/img/services/graphics-design.png",
     "iconName": "flaticon-3d-movie",
     "desc": "At EmpericTech, we believe that powerful visuals can transform the way you communicate your brand’s story. Whether through dynamic video editing, compelling motion graphics, or strategic graphic design, we craft engaging visuals that capture attention and leave a lasting impact. Our creative team blends artistic expertise with technical precision to deliver high-quality content tailored to your unique needs.",
     "shortDesc": "Creative video editing and design to elevate your brand.",
@@ -478,6 +478,68 @@
         }
       ]
     }
+  },
+  {
+  "id": 9,
+  "slug": "it-outsourcing",
+  "title": "IT & Business Outsourcing",
+  "img": "/img/services/outsourcing.png",
+  "iconName": "flaticon-3d-movie",
+  "desc": "At EmpericTech, we offer flexible and cost-effective outsourcing services tailored to meet the evolving demands of modern businesses. From IT and customer support to digital marketing and software development, we act as your extended team to accelerate growth while reducing operational costs.",
+  "shortDesc": "Extend your capabilities with reliable outsourcing solutions.",
+  "servicesInclude": {
+    "title": "Our Services Include",
+    "desc": "We provide dedicated outsourcing services that help you scale quickly and efficiently.",
+    "items": [
+      {
+        "title": "IT Outsourcing",
+        "desc": "Access skilled IT professionals for infrastructure support, software development, and maintenance."
+      },
+      {
+        "title": "Customer Support Outsourcing",
+        "desc": "Enhance customer satisfaction with 24/7 multichannel support solutions."
+      },
+      {
+        "title": "Back Office Support",
+        "desc": "Delegate administrative tasks such as data entry, billing, and HR to streamline operations."
+      },
+      {
+        "title": "Digital Marketing Outsourcing",
+        "desc": "Boost your online presence with outsourced SEO, social media, and content marketing experts."
+      },
+      {
+        "title": "Software Development Outsourcing",
+        "desc": "Leverage our development team to build high-quality, scalable software products."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "desc": "We combine expertise, flexibility, and reliability to deliver outsourcing services that align with your goals.",
+    "items": [
+      {
+        "title": "Skilled Professionals",
+        "desc": "Our team consists of trained experts across various domains ready to support your business needs."
+      },
+      {
+        "title": "Cost Efficiency",
+        "desc": "Reduce overheads and operational costs without compromising quality or delivery timelines."
+      },
+      {
+        "title": "Scalability",
+        "desc": "Quickly scale your team up or down based on demand, ensuring flexibility and agility."
+      },
+      {
+        "title": "Secure Processes",
+        "desc": "We follow strict data security protocols to keep your business information safe and compliant."
+      },
+      {
+        "title": "End-to-End Support",
+        "desc": "From onboarding to project delivery, we stay with you every step of the way to ensure success."
+      }
+    ]
   }
+}
+
 
 ]

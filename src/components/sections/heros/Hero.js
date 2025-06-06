@@ -20,7 +20,7 @@ const Hero = () => {
               I am Jigyas
             </h4> */}
             <h1 className="text-size-35 md:text-size-38 lg:text-size-50 xl:text-6xl 2xl:text-size-65 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mt-24 mb-15px">
-            Innovate. Integrate. Elevate.
+            Innovate. Integrate. Accelerate.
             </h1>
             {/* <div className="flex md:hidden justify-center items-center my-30px"> */}
               {/* <Image

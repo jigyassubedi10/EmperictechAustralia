@@ -15,7 +15,7 @@ const Blogs1 = () => {
               className="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px wow fadeInUp"
               data-wow-delay=".3s"
             >
-              Recent Blogs
+              Our Recent Blogs
             </h2>
             <p
               className="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp"

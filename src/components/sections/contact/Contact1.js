@@ -184,10 +184,10 @@ const Contact1 = () => {
                         Phone
                       </p>
                       <a
-                        href="tel:9779867177208"
+                        href="tel:61417016864"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
-                       +61 438 268 891 | +61 400 151 400                  
+                       +61 417 016 864 | +61 400 151 400                  
                       </a>
                     </div>
                   </li>
