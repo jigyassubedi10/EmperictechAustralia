@@ -1,9 +1,9 @@
 [
     {
       "name": "Bishwas Ghimire",
-      "role": "Product Owner & Cloud Engineer",
+      "role": "Project Manager",
       "yearsOfExperience": "5+",
-      "keySkills": ["AWS", "Azure"],
+      "keySkills": ["Agile & Scrum", "Project Lifecycle Management", "Risk & Issue Management", "Change Management"],
       "email": "mikejohnson@example.com",
       "image": "/img/teams/3.jpg"
     },
@@ -26,7 +26,7 @@
     {
       "name": "Jigyas Subedi",
       "role": "Senior Front-End Developer",
-      "yearsOfExperience": "4+",
+      "yearsOfExperience": "3+",
       "keySkills": ["JavaScript", "React", "Next.js"],
       "email": "johndoe@example.com",
       "image": "/img/teams/3.jpg"

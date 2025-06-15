@@ -18,16 +18,16 @@ const Contact1 = () => {
 
   // Google Form Action URL (Replace with your actual form URL)
   const GOOGLE_FORM_ACTION_URL =
-    "https://docs.google.com/forms/d/e/1FAIpQLSelrJWi5k6bVwMPWxnRuOsPf2Hn14YdJBwObaeuXP33n6ImOQ/formResponse";
+    "https://docs.google.com/forms/d/e/1FAIpQLSeJ-zepNHDMqfLfmylGNtHsAOsvSIjMUQpCg7Y2uKuxdwC3HA/formResponse";
 
   // Google Form Field Entry IDs (Replace with your actual entry IDs)
   const ENTRY_IDS = {
-    firstName: "entry.1294955074",
-    lastName: "entry.1539076652",
-    email: "entry.1465771810",
-    phone: "entry.806806733",
-    conService: "entry.1490164004",
-    message: "entry.1227988742",
+    firstName: "entry.397439918",
+    lastName: "entry.1459120330",
+    email: "entry.1012440999",
+    phone: "entry.932872408",
+    conService: "entry.308187283",
+    message: "entry.197482546",
   };
 
   // Handle input change

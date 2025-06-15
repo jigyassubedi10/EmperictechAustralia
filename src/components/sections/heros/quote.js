@@ -23,18 +23,18 @@ const GetQuoteSection = () => {
   const [loading, setLoading] = useState(false);
 
   const GOOGLE_FORM_ACTION_URL =
-    "https://docs.google.com/forms/d/e/1FAIpQLSedtphECWGCzou_B3kn_k6iB9KFd4hfp4CDOnfqjKUWJTt6JQ/formResponse";
+    "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe8F8u3hg6kkFP0zdTY1DjiMK8NatbgG3UspC_OJSk5Ye-Fuw/formResponse";
 
   const ENTRY_IDS = {
-    firstName: "entry.710866193",
-    lastName: "entry.1744972909",
-    email: "entry.192655377",
-    phone: "entry.1981487686",
-    help: "entry.1558491495",
-    businessType: "entry.25827797",
-    industry: "entry.144246849",
-    message: "entry.2060210165",
-    projectType: "entry.1883949435",
+    firstName: "entry.1560122568",
+    lastName: "entry.1422824931",
+    email: "entry.1382528603",
+    phone: "entry.1070813017",
+    help: "entry.1211024699",
+    businessType: "entry.510535061",
+    industry: "entry.854247153",
+    message: "entry.1158908627",
+    projectType: "entry.78790603",
   };
 
   const handleChange = (e) => {
@@ -176,6 +176,7 @@ const GetQuoteSection = () => {
                       "Cyber Security",
                       "Data Solutions",
                       "Graphics & Design",
+                      "IT & Business Outsourcing",
                     ]}
                   />
                 </div>
@@ -215,6 +216,17 @@ const GetQuoteSection = () => {
                   />
                 </div>
 
+                {/* New or Existing project */}
+                <div className="form_group sm:col-start-1 sm:col-span-2">
+                  <QuoteForm
+                    question="Is this a New or Existing project?"
+                    value={quoteFormData.projectType}
+                    onChange={(selectedValue) =>
+                      setQuoteFormData({ ...quoteFormData, projectType: selectedValue })
+                    }
+                    options={["New Project", "Existing Project"]}
+                  />
+                </div>
                 {/* Tell us about your project */}
                 <div className="form_group sm:col-start-1 sm:col-span-2">
                   <label htmlFor="message" className="block text-l text-gray-color-2 dark:text-body-color mb-3">
@@ -233,17 +245,7 @@ const GetQuoteSection = () => {
                   />
                 </div>
 
-                {/* New or Existing project */}
-                <div className="form_group sm:col-start-1 sm:col-span-2">
-                  <QuoteForm
-                    question="Is this a New or Existing project?"
-                    value={quoteFormData.projectType}
-                    onChange={(selectedValue) =>
-                      setQuoteFormData({ ...quoteFormData, projectType: selectedValue })
-                    }
-                    options={["New Project", "Existing Project"]}
-                  />
-                </div>
+                
 
                 {/* Submit button */}
                 <div className="sm:col-start-1 sm:col-span-2">

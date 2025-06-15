@@ -30,6 +30,7 @@ const FormSelect = ({ value, onChange }) => {
       <option value="Cyber Security">Cyber Security</option>
       <option value="Data Solutions">Data Solutions</option>
       <option value="Graphics & Design">Graphics & Design</option>
+      <option value="IT & Business Outsourcing">IT & Business Outsourcing</option>
     </select>
   );
 };

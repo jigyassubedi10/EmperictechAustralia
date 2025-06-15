@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "handy-cleaning",
     "slug":"handy-cleaning",
     "title": "Handy Cleaning",
     "title2": "Project Overview",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "neptune-vr",
     "slug":"neptune-vr",
     "title": "Neptune VR",
     "title2": "Project Description",
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "sublime-attire-collection",
     "slug":"sublime-attire-collection",
     "title": "Sublime Attire Creation",
     "url": "", 
@@ -131,7 +131,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "nepse-trading",
     "slug":"nepse-trading",
     "title": "NEPSE Trading",
     "title2": "Project Description",

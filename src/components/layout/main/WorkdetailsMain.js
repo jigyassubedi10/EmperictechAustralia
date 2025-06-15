@@ -1,22 +1,39 @@
 "use client";
+
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
+
 import WorkBreadCarumb from "@/components/sections/heros/WorkBreadCarumb";
 import WorkDetailsPrimary from "@/components/sections/work-details/WorkDetailsPrimary";
 import getAWork from "@/libs/getAWork";
 
-import { useParams } from "next/navigation";
 const WorkdetailsMain = () => {
-  const params = useParams();
-  const works = getAWork(params?.id);
-  const { title } = works || {};
+  const { id } = useParams();
+  const [work, setWork] = useState(null);
+
+  useEffect(() => {
+    const fetchWork = async () => {
+      if (id) {
+        const result = await getAWork(id);
+        console.log("Fetched work:", result);  // Debug
+        setWork(result);
+      }
+    };
+    fetchWork();
+  }, [id]);
+
+  // Adjust here if your data is nested
+  const title = work?.title || work?.data?.title || "Work Details";
+
   return (
     <main>
       <WorkBreadCarumb
-        title={title ? title : "portfolio Details"}
-        text={title ? title : "portfolio Details"}
-        actualItem={"Works"}
+        title={title}
+        text={title}
+        actualItem="Works"
         path="/#works"
       />
-      <WorkDetailsPrimary />
+      <WorkDetailsPrimary work={work} />
     </main>
   );
 };
