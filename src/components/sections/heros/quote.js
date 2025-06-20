@@ -177,6 +177,8 @@ const GetQuoteSection = () => {
                       "Data Solutions",
                       "Graphics & Design",
                       "IT & Business Outsourcing",
+                      "Other",
+                      
                     ]}
                   />
                 </div>
@@ -212,6 +214,7 @@ const GetQuoteSection = () => {
                       "Healthcare",
                       "Manufacturing",
                       "Entertainment",
+                      "Other",                   
                     ]}
                   />
                 </div>

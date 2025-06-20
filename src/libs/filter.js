@@ -1,15 +1,25 @@
 // filter.js
+
 const filter = () => {
   const portfolioBox = document.querySelector(".portfolio-box");
   const filterButtons = document.querySelectorAll(".filter-button-group button");
 
-  // Wait for all images to load
-  const images = portfolioBox?.querySelectorAll("img");
+  // Exit early if portfolioBox not found
+  if (!portfolioBox) return;
+
+  const images = portfolioBox.querySelectorAll("img");
 
   const imagesLoaded = () => {
     return new Promise((resolve) => {
+      // If no images found, resolve immediately
+      if (!images || images.length === 0) {
+        resolve();
+        return;
+      }
+
       let loadedCount = 0;
-      images?.forEach((img) => {
+
+      images.forEach((img) => {
         if (img.complete) {
           loadedCount++;
         } else {
@@ -23,12 +33,12 @@ const filter = () => {
           });
         }
       });
+
       if (loadedCount === images.length) resolve();
     });
   };
 
   imagesLoaded().then(() => {
-    // Initialize Isotope
     import("isotope-layout").then(({ default: Isotope }) => {
       const iso = new Isotope(portfolioBox, {
         itemSelector: ".portfolio-item",
@@ -39,16 +49,15 @@ const filter = () => {
         },
       });
 
-      // Filter items on button click
+      // Filter buttons
       filterButtons.forEach((button) => {
         button.addEventListener("click", () => {
-          // Remove active class from all buttons
+          // Remove active from all
           filterButtons.forEach((btn) => btn.classList.remove("active"));
 
-          // Add active class to the clicked button
+          // Add active to clicked button
           button.classList.add("active");
 
-          // Filter items
           const filterValue = button.getAttribute("data-filter");
           iso.arrange({ filter: filterValue });
         });
