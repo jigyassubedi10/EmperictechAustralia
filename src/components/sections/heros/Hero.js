@@ -65,7 +65,7 @@ const Hero = () => {
       </div>
       
       {/* <!-- fanfact --> */}
-      <FunFact />
+      {/* <FunFact /> */}
       
     </section>
   );
