@@ -187,7 +187,7 @@ const Contact1 = () => {
                         href="tel:61417016864"
                         className="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-medium hover:text-primary-color"
                       >
-                       +61 417 016 864 | +61 400 151 400                  
+                       +61 485 872 506 <br />+61 417 016 864 <br />+61 400 151 400                  
                       </a>
                     </div>
                   </li>

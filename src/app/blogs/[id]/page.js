@@ -3,32 +3,37 @@ import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 import getBlogs from "@/libs/getBlogs";
 import { notFound } from "next/navigation";
 
-// Fetch blogs data
-const blogs = getBlogs();
+// ✅ Static Site Generation (SSG)
+export async function generateStaticParams() {
+  const blogs = await getBlogs();
 
-export const metadata = {
-  title: "Blog Details - Gerold - Personal Portfolio React NextJs Template",
-  description: "Blog Details - Gerold - Personal Portfolio React NextJs Template",
-};
+  // Map slug as 'id' since your route param is [id]
+  return blogs.map(({ slug }) => ({ id: slug }));
+}
+
+// ✅ ISR: Regenerates every 60 seconds
+export const revalidate = 60;
 
 export default async function BlogDetails({ params }) {
-  const { id } = params;
+  const { id } = params; // param is named 'id'
 
-  // Convert id to number and check if it exists in blogs
-  const isExistBlog = blogs?.find(({ id: id1 }) => id1 === parseInt(id));
+  const blogs = await getBlogs();
 
-  if (!isExistBlog) {
-    notFound();
+  // Find blog by slug (which equals id)
+  const currentIndex = blogs.findIndex((item) => item.slug === id);
+
+  if (currentIndex === -1) {
+    console.warn(`Blog with id "${id}" not found.`);
+    return notFound();
   }
+
+  const blog = blogs[currentIndex];
+  const prevBlog = currentIndex > 0 ? blogs[currentIndex - 1] : null;
+  const nextBlog = currentIndex < blogs.length - 1 ? blogs[currentIndex + 1] : null;
 
   return (
     <PageWrapper isInnerPage={true}>
-      <BlogDetailsMain />
+      <BlogDetailsMain blog={blog} prevBlog={prevBlog} nextBlog={nextBlog} />
     </PageWrapper>
   );
-}
-
-// ✅ Generate static paths for each blog ID
-export async function generateStaticParams() {
-  return blogs?.map(({ id }) => ({ id: id.toString() }));
 }

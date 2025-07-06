@@ -20,6 +20,11 @@
       "path2":"/#testimonials"  
     },
     {
+      "name":"Blogs",
+      "path":"#blogs",
+      "path2":"/#blogs"  
+    },
+    {
       "name":"Contact",
       "path":"#contact",
       "path2":"/#contact"  

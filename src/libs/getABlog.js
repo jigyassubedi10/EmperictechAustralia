@@ -1,9 +1,9 @@
 import getBlogs from "./getBlogs";
 
-const getABlog = (currentId) => {
-  const blogs = getBlogs();
-  const blog = blogs?.find(({ id }) => parseInt(currentId) === id);
-  return blog;
+const getABlog = (slug) => {
+  const allBlogs = getBlogs();
+  const blog = allBlogs?.find((b) => b.slug === slug);
+  return blog || null;
 };
 
 export default getABlog;
