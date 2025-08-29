@@ -30,9 +30,9 @@ const BlogCommentSingle = ({ comment }) => {
           <p className="text-sm text-primary-color-light dark:text-white-color mb-15px">
             {date}
           </p>
-          <p className="text-primary-color-light dark:text-body-color mb-25px">
+          {/* <p className="text-primary-color-light dark:text-body-color mb-25px">
             {desc}
-          </p>
+          </p> */}
           <div>
             <Link
               href="#comment-reply"

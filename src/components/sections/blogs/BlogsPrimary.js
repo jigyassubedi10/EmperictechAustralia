@@ -1,71 +1,59 @@
-import BlogQuote from "@/components/shared/blogs/BlogQuote";
-import BlogSingle from "@/components/shared/blogs/BlogSingle";
-import Paginations from "@/components/shared/others/Paginations";
-import BlogSidebar from "@/components/shared/sidebar/BlogSidebar";
-import { useCommonContext } from "@/context_api/CommonContext";
-import usePagination from "@/hooks/usePagination";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-
-import { Autoplay, Pagination } from "swiper/modules";
+"use client";
+import BlogCard from "@/components/shared/cards/BlogCard";
+import HeadingPrimary from "@/components/shared/headings/HeadingPrimary";
+import getBlogs from "@/libs/getBlogs";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import { useEffect, useState } from "react";
 
 const BlogsPrimary = () => {
-  const { filteredBlogs } = useCommonContext();
-  const limit = 6;
-  // get pagination details
-  const {
-    currentItems,
-    currentpage,
-    setCurrentpage,
-    paginationItems,
-    currentPaginationItems,
-    totalPages,
-    handleCurrentPage,
-    firstItem,
-    lastItem,
-  } = usePagination(filteredBlogs, limit);
-  const totalBlogs = filteredBlogs?.length;
-  const totalBlogsToShow = currentItems?.length;
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    const blogData = getBlogs(); // load from blogs.json
+    setBlogs(blogData);
+  }, []);
+
   return (
     <section id="blogs">
-      <div className="py-60px md:py-20 lg:py-100px xl:py-30 dark:bg-black-color">
+      <div className="pt-60px pb-30px md:pt-20 md:pb-60px lg:pt-100px lg:pb-20">
         <div className="container">
-          <div className="lg:grid lg:gap-6 lg:grid-cols-12">
-            {/* <!-- blogs --> */}
-            <div className="flex flex-col gap-10 lg:col-start-1 lg:col-span-8">
-              {currentItems?.length
-                ? currentItems?.map((blog, idx) =>
-                    blog?.isBlogQuote ? (
-                      <BlogQuote key={idx} blog={blog} />
-                    ) : (
-                      <BlogSingle key={idx} blog={blog} />
-                    )
-                  )
-                : ""}
+          {/* Section Heading */}
+          <div className="text-center flex flex-col items-center mb-10 md:mb-50px">
+            <HeadingPrimary>Latest Blog Articles</HeadingPrimary>
+            <p
+              className="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp"
+              data-wow-delay=".4s"
+            >
+              Stay updated with the latest insights, trends, and tips from the world of digital technology, design, and development.
+            </p>
+          </div>
 
-              {/* <!-- pagination --> */}
-              {totalBlogsToShow < totalBlogs ? (
-                <Paginations
-                  paginationDetails={{
-                    currentItems,
-                    currentpage,
-                    setCurrentpage,
-                    paginationItems,
-                    currentPaginationItems,
-                    totalPages,
-                    handleCurrentPage,
-                    firstItem,
-                    lastItem,
-                  }}
-                />
-              ) : (
-                ""
-              )}
-            </div>
-            {/* <!-- sidebar --> */}
-            <BlogSidebar />
+          {/* Blog Cards in Swiper */}
+          <div
+            className="wow fadeInUp mt-30px md:mt-10 lg:mt-50px"
+            data-wow-delay=".6s"
+          >
+            <Swiper
+              spaceBetween={30}
+              slidesPerView={1}
+              loop={true}
+              pagination={{ clickable: true }}
+              speed={1000}
+              autoplay={{ delay: 5000, disableOnInteraction: false }}
+              breakpoints={{
+                600: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
+              modules={[Pagination, Autoplay]}
+              className="blog-slider"
+            >
+              {blogs.map((blog, idx) => (
+                <SwiperSlide key={idx}>
+                  <BlogCard blog={blog} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const BlogQuote = ({ blog }) => {
       className="group relative flex flex-col items-center wow fadeInUp"
       data-wow-delay=".3s"
     >
-      <div className="rounded-lg relative overflow-hidden bg-primary-color-light">
+      {/* <div className="rounded-lg relative overflow-hidden bg-primary-color-light">
         <blockquote
           className={`py-25px px-15px md:p-30px relative block before:content-['\\f10e'] before:block before:text-size-40 before:leading-none before:font-fontawesome before:font-light before:relative before:mb-3`}
         >
@@ -24,7 +24,7 @@ const BlogQuote = ({ blog }) => {
             </div>
           </div>
         </blockquote>
-      </div>
+      </div> */}
     </div>
   );
 };

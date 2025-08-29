@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "postbuild": "next-sitemap",
     "output": "export"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "isotope-layout": "^3.0.6",
     "lucide-react": "^0.483.0",
     "next": "^15.3.4",
+    "next-sitemap": "^4.2.3",
     "nice-select2": "^2.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
