@@ -14,7 +14,11 @@ import ThmeModeSwither from "@/components/shared/others/ThmeModeSwither";
 
 export const metadata = {
   title: "EmpericTech",
-  description: "EmpericTech - Empowering Businesses with Innovative IT Solutions",
+  description:
+    "EmpericTech - Empowering Businesses with Innovative IT Solutions",
+  verification: {
+    google: "fL4pkIy4ewdUGn9H_SYmEn5pHqBWjqJingj25niaCrE",
+  },
 };
 
 export default function RootLayout({ children }) {

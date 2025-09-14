@@ -1,0 +1,52 @@
+{
+  "title": "",
+  "description": "At Emperictech, we are committed to protecting the privacy of our customers and website visitors. This Privacy Policy explains how we collect, use, disclose, and manage your personal information in accordance with the Privacy Act 1988 (Cth) and the Australian Privacy Principles (APPs).",
+  "sections": [
+    {
+      "heading": "1. Introduction and Our Commitment",
+      "content": "Emperictech is committed to protecting the privacy of its customers' and website visitors' personal information. This Privacy Policy outlines how the business manages personal information in accordance with the Privacy Act 1988 (Cth) and the 13 Australian Privacy Principles (APPs). This policy applies to all personal information collected and held by us."
+    },
+    {
+      "heading": "2. What is Personal Information?",
+      "content": "Personal information is any information or opinion about an identified individual, or an individual who is reasonably identifiable. This includes, but is not limited to, an individual's name, address, email address, telephone number, date of birth, and bank account details. Sensitive information, a subcategory of personal information, includes details about health, racial or ethnic origin, political opinions, religious beliefs, or criminal records. We will only collect sensitive information with your consent or where required by law."
+    },
+    {
+      "heading": "3. How We Collect Personal Information",
+      "content": "Emperictech will only collect personal information that is reasonably necessary for the performance of its functions and activities. We collect information through lawful and fair means, and in a transparent and unobtrusive way. We collect information directly from you when you interact with us via our website, phone calls, email, or in-person meetings. If we receive unsolicited personal information, we will take reasonable steps to determine if we could have lawfully collected it and, if not, we will destroy or de-identify it as soon as practicable. In some instances, you may choose to use a pseudonym or remain anonymous when dealing with us. However, this may not be possible when providing our services, billing, or when we are legally required to identify you."
+    },
+    {
+      "heading": "4. Purpose of Collection, Use, and Disclosure",
+      "list": [
+        "To provide our IT services and products to you.",
+        "To manage our relationship with you and communicate about our services.",
+        "To process payments, manage billing, and assess your creditworthiness in accordance with our Terms of Use.",
+        "To improve our services, maintain records, and conduct statistical analysis.",
+        "For direct marketing purposes, with your explicit consent. You can opt out at any time. We will never share your personal information with third parties for marketing without your approval."
+      ]
+    },
+    {
+      "heading": "5. How We Use Cookies",
+      "content": "Cookies are small data files stored on your device when you visit a website. We use cookies to enhance your browsing experience, personalise content, and gather analytics. The information collected may include your IP address, location, browser type, and pages visited. You can disable cookies via your browser settings, but doing so may limit functionality on our website."
+    },
+    {
+      "heading": "6. Cross-Border Disclosure",
+      "content": "In some cases, your personal information may be shared with overseas service providers, such as cloud storage providers. We take reasonable steps to ensure that any overseas recipients comply with the Australian Privacy Principles or a similar privacy framework."
+    },
+    {
+      "heading": "7. Data Quality, Security, and Retention",
+      "content": "We take reasonable measures to ensure that the personal information we collect is accurate, up-to-date, and complete. We also implement robust security practices to protect against unauthorised access, misuse, or disclosure. When your personal information is no longer required, we will securely destroy or de-identify it."
+    },
+    {
+      "heading": "8. Access and Correction",
+      "content": "You have the right to request access to the personal information we hold about you and to request corrections if it is inaccurate, incomplete, or outdated. To exercise this right, please contact our Privacy Officer using the details below."
+    },
+    {
+      "heading": "9. Complaints and Disputes",
+      "content": "If you have concerns about how we handle your personal information, please contact our Privacy Officer first. We will investigate and respond promptly. If you are dissatisfied with our response, you may lodge a complaint with the Office of the Australian Information Commissioner (OAIC)."
+    },
+    {
+      "heading": "10. Contact Us",
+      "content": "For any privacy-related inquiries, please contact us at: info@emperictech.com.au"
+    }
+  ]
+}

@@ -6,8 +6,8 @@
   },
     {
       "name":"Services",
-      "path":"#services",
-      "path2":"/#services"  
+      "path":"/services",
+      "path2":"/services"  
     },
     {
       "name":"Our Works",

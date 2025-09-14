@@ -1,0 +1,22 @@
+{
+  "title": "",
+  "description": "Please read this disclaimer carefully before using our website. By accessing or using our site, you agree to the terms outlined below.",
+  "sections": [
+    {
+      "title": "1. Disclaimer of Accuracy and Professional Advice",
+      "desc": "The information on this website is for general informational purposes only. While we make every effort to provide accurate and up-to-date information, we do not guarantee or warrant its accuracy, completeness, or currency. The content is not intended to be professional advice and does not address the specific circumstances of any individual or business. You should exercise your own skill and judgment and seek independent professional advice before relying on any information on this site."
+    },
+    {
+      "title": "2. Third-Party Links and Content",
+      "desc": "Our website may contain links to other websites that are not owned or controlled by Emperictech. These links are provided for your convenience only. We do not endorse or make any representation about the content of these sites, their services, or products. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services."
+    },
+    {
+      "title": "3. Security and Risk",
+      "desc": "The security and integrity of information transmitted to or from this website over the internet cannot be guaranteed. There is an inherent risk that information may be viewed, intercepted, corrupted, or modified by third parties. You assume all risks associated with using this website, including the risk that your computer, software, or data may be damaged by any virus or other malicious code transmitted via the website or through your access to it."
+    },
+    {
+      "title": "4. Copyright Notice",
+      "desc": "All material on this website is the property of Emperictech or its third-party content suppliers and is protected by Australian and international copyright laws. Except as expressly permitted by law, you may not reproduce or communicate any of the material on this website without the written permission of the copyright owner."
+    }
+  ]
+}

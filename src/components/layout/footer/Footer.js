@@ -69,6 +69,31 @@ const Footer = () => {
                 EmpericTech
               </Link>
             </div>
+            <div className="copyright text-gray-color text-sm md:text-base mt-5">
+  <div className="flex flex-wrap items-center justify-center gap-4 text-center mb-3">
+    <Link
+      href="/privacy-policy"
+      className="text-white-color hover:text-primary-color"
+    >
+      Privacy Policy
+    </Link>
+    <span className="text-gray-color hidden sm:inline">|</span>
+    <Link
+      href="/disclaimer"
+      className="text-white-color hover:text-primary-color"
+    >
+      Disclaimer
+    </Link>
+    <span className="text-gray-color hidden sm:inline">|</span>
+    <Link
+      href="/terms-agreement"
+      className="text-white-color hover:text-primary-color"
+    >
+      Terms & Agreement
+    </Link>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
