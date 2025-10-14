@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${service.title} - EmpericTech`, // Dynamic title
+    title: `${service.title} | EmpericTech`, // Dynamic title
     description: service.description || "Learn more about this service.", // Dynamic description
   };
 }

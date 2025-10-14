@@ -1,6 +1,8 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://emperictech.com.au', // Replace with your domain
-  generateRobotsTxt: true,            // Generates robots.txt
-  sitemapSize: 7000,                  // Optional, default is fine
+  siteUrl: 'https://emperictech.com.au',
+  generateRobotsTxt: true,
+  sitemapSize: 50000,
+  outDir: './public',
+  generateIndexSitemap: false, 
 };

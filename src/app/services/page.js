@@ -1,10 +1,23 @@
-"use client";
+
 import HeroBreadcarumb from "@/components/sections/heros/HeroBreadcarumb";
 import ServiceCard from "@/components/shared/cards/ServiceCard";
 import HeadingPrimary from "@/components/shared/headings/HeadingPrimary";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 import getALlServices from "@/libs/getALlServices";
 import Link from "next/link";
+
+
+export const metadata = {
+  title: "Services | Emperictech | Web Development, Cloud Services, IT/Tech Support, Digital Marketing",
+  description:
+    "Explore EmpericTech’s full range of services including custom web development, cloud migration, managed IT services, and cybersecurity. Tailored for SMEs and enterprises.",
+  keywords: [
+    "IT services Australia",
+    "web development services",
+    "cloud solutions Melbourne",
+    "managed IT support",
+  ],
+};
 
 const ServicesPage = () => {
   const services = getALlServices();
