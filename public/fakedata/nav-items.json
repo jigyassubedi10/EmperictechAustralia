@@ -11,8 +11,8 @@
     },
     {
       "name":"Our Works",
-      "path":"#works",
-      "path2":"/#works"  
+      "path":"/works",
+      "path2":"/works"  
     },
     {
       "name":"Testimonials",
@@ -21,8 +21,8 @@
     },
     {
       "name":"Blogs",
-      "path":"#blogs",
-      "path2":"/#blogs"  
+      "path":"/blogs",
+      "path2":"/blogs"  
     },
     {
       "name":"Contact",

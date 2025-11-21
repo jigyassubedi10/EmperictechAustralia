@@ -256,6 +256,12 @@ img {
   color: var(--primary-color);
 }
 
+/* Match Services slider pagination style to Works slider */
+.services-slider .swiper-pagination {
+  position: relative !important;
+  margin-top: 10px !important; /* SAME spacing as Works */
+}
+
 /* Custom styles */
 .quote-modal {
   position: absolute;

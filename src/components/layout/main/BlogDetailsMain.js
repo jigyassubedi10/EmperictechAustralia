@@ -12,7 +12,7 @@ const BlogDetailsMain = ({ blog, prevBlog, nextBlog }) => {
         title={title}
         text={title}
         actualItem="Blogs"
-        path="/#blogs"
+        path="/blogs"
       />
       <BlogDetailsPrimary
         blog={blog}

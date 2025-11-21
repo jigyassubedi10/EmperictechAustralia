@@ -31,7 +31,7 @@ const WorkdetailsMain = () => {
         title={title}
         text={title}
         actualItem="Works"
-        path="/#works"
+        path="/works"
       />
       <WorkDetailsPrimary work={work} />
     </main>

@@ -13,7 +13,7 @@
         "yearsOfExperience": "5+",
         "keySkills": ["Python", "Machine Learning", "SQL"],
         "email": "sarahbrown@example.com",
-        "image": "/img/teams/3.jpg"
+        "image": "/img/teams/4.jpg"
     },
     {
       "name": "Shreya Upadhyay",
@@ -21,7 +21,7 @@
       "yearsOfExperience": "4+",
       "keySkills": ["Strategic Prospecting & Data Analysis, Client Relationship Management, IT Solutions Selling, Negotiation & Digital Pipeline Optimisation"],
       "email": "sarahbrown@example.com",
-      "image": "/img/teams/3.jpg"
+      "image": "/img/teams/5.jpg"
     },
     {
       "name": "Jigyas Subedi",
@@ -40,36 +40,13 @@
       "image": "/img/teams/3.jpg"
     },
     {
-      "name": "Sam Swift",
-      "role": "Cybersecurity Engineer",
-      "yearsOfExperience": "6+",
-      "keySkills": ["Penetration Testing", "Network Security", "Cloud Security"],
-      "email": "davidlee@example.com",
-      "image": "/img/teams/3.jpg"
-    },
-    {
         "name": "Kishor Lamichhane",
         "role": "Digital Marketing Strategist",
         "yearsOfExperience": "5+",
         "keySkills": ["SEO & SEM, Content Strategy, Campaign Management, Data Analytics, Conversion Rate Optimization (CRO)"],
         "email": "davidlee@example.com",
-        "image": "/img/teams/3.jpg"
-      },
-      {
-        "name": "Gopal Sharma",
-        "role": "Consultant Software Engineer",
-        "yearsOfExperience": "15+",
-        "keySkills": ["Software Architecture", "System Design", "Full Stack Development"],
-        "email": "davidlee@example.com",
-        "image": "/img/teams/3.jpg"
-      },
-      {
-        "name": "Tara Devi",
-        "role": "Consultant Software Engineer",
-        "yearsOfExperience": "15+",
-        "keySkills": ["Software Architecture", "System Design", "Full Stack Development"],
-        "email": "davidlee@example.com",
-        "image": "/img/teams/3.jpg"
+        "image": "/img/teams/6.jpg"
       }
+      
   ]
   

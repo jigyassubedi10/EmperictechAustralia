@@ -11,7 +11,7 @@ const ServiceDetailsPrimary = () => {
   const slug = params?.slug;  // Getting slug (e.g., "web-development")
   
   const service = getAService(slug);  // Fetching service by slug
-  const { title, desc, img, servicesInclude, whyChooseUs } = service || {};
+  const { title, desc, img, servicesInclude, location, whyChooseUs } = service || {};
 
   const {
     title: servicesIncludeTitle,
@@ -50,7 +50,23 @@ const ServiceDetailsPrimary = () => {
                               {title}
                             </span>
                           </h3>
+                        {location?.length > 0 && (
+  <div className="flex items-center gap-3 flex-wrap pb-8">
+    <span className="flex items-center gap-2">
+      <i className="fa-solid fa-location-dot"></i>
+      <span className="capitalize">Location:</span>
+    </span>
 
+    {location.map((loc, idx) => (
+      <span
+        key={idx}
+        className="capitalize bg-primary-color-light/10 dark:bg-white/10 px-3 py-1 rounded-md text-sm"
+      >
+        {loc}
+      </span>
+    ))}
+  </div>
+)}
                           <p className="text-primary-color-light dark:text-white-color mb-15px md:mb-5">
                             {desc}
                           </p>

@@ -16,7 +16,7 @@ const Services1 = () => {
 
   return (
     <section id="services">
-      <div className="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-30">
+      <div className="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-28">
         <div className="container">
           {/* Heading */}
           <div className="text-center flex flex-col items-center mb-10 md:mb-50px">
@@ -31,7 +31,7 @@ const Services1 = () => {
 
           {/* Services Swiper */}
           <div
-            className="wow fadeInUp mt-30px md:mt-10 lg:mt-50px"
+            className="wow fadeInUp mt-30px md:mt-10 lg:mt-20px"
             data-wow-delay=".6s"
           >
             <Swiper
@@ -39,7 +39,7 @@ const Services1 = () => {
               slidesPerView={1}
               loop={true}
               pagination={{ clickable: true }}
-              speed={1000}
+              speed={600}
               autoplay={{ delay: 5000, disableOnInteraction: false }}
               breakpoints={{
                 600: { slidesPerView: 2 },
@@ -53,7 +53,10 @@ const Services1 = () => {
                   <ServiceCard service={service} />
                 </SwiperSlide>
               ))}
-              <div className="text-center mt-10 md:mt-16">
+              </Swiper>
+              
+              <div className="text-center mt-10 md:mt-10 lg:mt-0">
+                
             <Link
               href="/services"
               className="text-size-15 font-bold text-white-color capitalize py-17px px-35px ml-10px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full leading-1 ${className} transition-all duration-300"
@@ -61,7 +64,7 @@ const Services1 = () => {
               Explore More Services <FaChevronRight className="inline-block ml-1 text-xs sm:text-sm md:text-base lg:text-lg" />
             </Link>
           </div>
-            </Swiper>
+            
           </div>
 
           {/* Explore More Services Button */}

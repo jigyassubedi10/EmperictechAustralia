@@ -37,13 +37,14 @@ const ServicesPage = () => {
         <div className="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-30">
           <div className="container">
             {/* Services Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-              {services?.map((service, idx) => (
-                <div key={idx} className="relative">
-                  <ServiceCard service={service} />
-                </div>
-              ))}
-            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
+  {services?.map((service, idx) => (
+    <div key={idx} className="relative">
+      <ServiceCard service={service} />
+    </div>
+  ))}
+</div>
+
 
             {/* CTA Section */}
             <div className="bg-gradient-primary text-white text-center py-10 px-6 rounded-lg shadow-lg mt-20">

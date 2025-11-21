@@ -1,46 +1,46 @@
 import HeroBreadcarumb from "@/components/sections/heros/HeroBreadcarumb";
+import WorkCard from "@/components/shared/cards/WorkCard";
 import HeadingPrimary from "@/components/shared/headings/HeadingPrimary";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
-import getBlogs from "@/libs/getBlogs";
+import getWork from "@/libs/getWork";
 import Link from "next/link";
-import BlogCard from "@/components/shared/cards/BlogCard"; // <-- you must have this
 
 export const metadata = {
-  title: "Blogs | EmpericTech | Tech Insights, IT Updates & Tutorials",
+  title: "Our Works | EmpericTech | Portfolio & Case Studies",
   description:
-    "Read the latest blogs from EmpericTech including web development, IT security, AI trends, cloud computing and digital business insights.",
+    "Explore EmpericTech’s portfolio – websites, branding, cloud implementations, digital marketing and IT projects delivered for clients worldwide.",
   keywords: [
-    "tech blogs",
-    "IT news",
-    "web development articles",
-    "cybersecurity blogs",
-    "cloud computing blogs",
+    "IT portfolio",
+    "website portfolio",
+    "case studies",
+    "IT projects",
+    "EmpericTech works",
   ],
 };
 
-const BlogsPage = async () => {
-  const blogs = await getBlogs();
+const WorksPage = async () => {
+  const works = await getWork();
 
   return (
     <PageWrapper isInnerPage={true}>
       {/* Hero Breadcrumb */}
       <HeroBreadcarumb
-        title="Our Blogs"
-        text="Explore latest articles & insights"
-        actualItem="Blogs"
-        path="/blogs"
+        title="Our Works"
+        text="Explore our recent projects"
+        actualItem="Works"
+        path="/works"
       />
 
-      {/* Blogs Section */}
-      <section id="blogs">
+      {/* Works Section */}
+      <section id="works">
         <div className="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-30">
           <div className="container">
 
-            {/* Blogs Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
-              {blogs?.map((blog, idx) => (
+            {/* Works Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+              {works?.map((work, idx) => (
                 <div key={idx} className="relative">
-                  <BlogCard blog={blog} />
+                  <WorkCard works={work} />
                 </div>
               ))}
             </div>
@@ -48,11 +48,11 @@ const BlogsPage = async () => {
             {/* CTA Section */}
             <div className="bg-gradient-primary text-white text-center py-10 px-6 rounded-lg shadow-lg mt-20">
               <h2 className="text-2xl md:text-3xl font-bold mb-3">
-                Want to stay updated with industry insights?
+                Want to build something amazing?
               </h2>
 
               <p className="text-lg md:text-xl mb-5">
-                Follow <span className="font-bold">EmpericTech</span> for more blogs, tutorials, and tech updates.
+                Let <span className="font-bold">EmpericTech</span> help bring your vision to life.
               </p>
 
               <Link
@@ -70,4 +70,4 @@ const BlogsPage = async () => {
   );
 };
 
-export default BlogsPage;
+export default WorksPage;

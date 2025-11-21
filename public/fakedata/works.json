@@ -9,19 +9,19 @@
     "url": "https://handycleaning.com.au/", 
     "detailsImg": "/img/portfolio/portfolio-details-1.jpg",
     "desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
-    "shortDesc": "Cloud Migration for Enhanced Efficiency",
+    "shortDesc": "Cloud Migration & IT Infrastructure",
     "desc1": "Handy Cleaning, a rapidly growing cleaning service provider, faced challenges with their on-premises website infrastructure. They experienced frequent downtime, scalability issues, and high maintenance costs, hindering their ability to manage online bookings and customer interactions efficiently.",
     
 
-    "dataFilter": "branding",
+    "dataFilter": "webdesign",
     "statusItem": [
       {
         "title": "Category",
-        "desc": "Web Design"
+        "desc": "Cloud Solutions"
       },
       {
         "title": "Client",
-        "desc": "Handy Cleaning"
+        "desc": "Handy Cleaning Services"
       },
       {
         "title": "Start Date",
@@ -52,12 +52,12 @@
     "img": "/img/portfolio/neptune-vr.png",
     "img1": "/img/portfolio/neptune-vr.jpg",
     "detailsImg": "/img/portfolio/portfolio-details-2.jpg",
-    "desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
+    "desc": "Neptune VR is a mobile virtual reality gaming experience based in Geelong, VIC, offering immersive VR simulation for events, corporate functions, private parties and school programs.",
     "shortDesc": "Immersive Website Design for Virtual Reality Gaming",
     "desc1": "Neptune VR, a cutting-edge virtual reality gaming experience business, needed a website that reflected their innovative and immersive brand. They required a visually stunning and highly engaging website to showcase their VR gaming experiences and attract a tech-savvy audience.",
     
 
-    "dataFilter": "uxui",
+    "dataFilter": "vr",
     "statusItem": [
       {
         "title": "Category",
@@ -65,7 +65,7 @@
       },
       {
         "title": "Client",
-        "desc": "Neptune VR"
+        "desc": "Neptune VR Pty Ltd"
       },
       {
         "title": "Start Date",
@@ -79,11 +79,11 @@
     "descItems": [
       {
         "title": "Our Solution",
-        "desc": "We designed and developed a custom website that captured the essence of Neptune VR's brand. We created an immersive user experience with interactive elements, high- quality visuals, and seamless navigation. The website was optimized for various devices and platforms to ensure accessibility and engagement."
+        "desc": "We designed and built a highly interactive website and booking system for Neptune VR, highlighting its mobile VR truck, game offerings, and event packages. The platform showcases their experiences like space exploration, dinosaur island, flying simulators, and more, making it easy for customers to book for birthdays, corporate team-building, schools, and private hire. We also optimized the site for mobile devices to help reach customers planning on the go."
       },
       {
         "title": "Outcome",
-        "desc": "Neptune VR's new website has significantly increased their online presence and engagement. The visually stunning design and immersive user experience have attracted a wider audience and enhanced their brand image. The website has become a key tool for showcasing their VR gaming experiences and driving customer acquisition."
+        "desc": "Neptune VR now has a compelling digital presence that drives lead generation and event bookings. Their website captures the excitement of their VR experiences, helps convert website visitors into customers for private and corporate events, and communicates their range of immersive games clearly. This has enabled Neptune VR to scale its event business and reach more clients across Geelong and Victoria."
       }
     ]
   },
@@ -91,10 +91,10 @@
     "id": "sublime-attire-collection",
     "slug":"sublime-attire-collection",
     "title": "Sublime Attire Creation",
-    "url": "", 
+    "url": "https://sublime.boutique/", 
     "title2": "Project Description",
-    "img": "/img/portfolio/4.jpg",
-    "img1": "/img/portfolio/4.jpg",
+    "img": "/img/portfolio/sublime.png",
+    "img1": "/img/portfolio/sublime.svg",
     "detailsImg": "/img/portfolio/portfolio-details-3.jpg",
     "desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
     "shortDesc": "Digital Marketing for Bridal Boutique Growth",
@@ -171,6 +171,226 @@
       {
         "title": "Outcome",
         "desc": "NEPSE Trading now provides a reliable and efficient platform for traders, with real-time data and seamless trading services. The platform's performance has been optimized, and the ongoing IT support ensures minimal downtime. This project has enhanced NEPSE Trading's market presence and user satisfaction."
+      }
+    ]
+  },
+  {
+    "id": "belbott-cleaning-services",
+    "slug":"belbott-cleaning-services",
+    "title": "Belbott Cleaning Services",
+    "title2": "Project Description",
+    "img": "/img/portfolio/belbott.png",
+    "img1": "/img/portfolio/belbott.svg",
+    "url": "https://belbott.com/", 
+    "detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+    "desc": "Belbott is a trusted cleaning service company operating in East Perth, WA, offering both residential and commercial cleaning solutions tailored to each client’s needs.",
+    "shortDesc": "Website Design & Booking System",
+    "desc1": "Belbott has built its reputation over 10+ years by delivering high-quality, reliable cleaning services for homes, offices, industrial sites, and strata buildings. The company uses eco-friendly products and modern equipment, ensuring each space is spotless, safe, and healthy.",
+    
+
+    "dataFilter": "branding",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Website Design & Development"
+      },
+      {
+        "title": "Client",
+        "desc": "Belbott Services"
+      },
+      {
+        "title": "Start Date",
+        "desc": "January 15, 2024"
+      },
+      {
+        "title": "Designer",
+        "desc": "EmpericTech"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Our Solution",
+        "desc": "We developed a professional, clean, and mobile-friendly website that clearly lists all of Belbott’s service offerings, allows customers to request quotes, and highlights their experience and expertise. We emphasized ease of use, modern design, and accessibility to enable Belbott to scale its business digitally."
+      },
+      {
+        "title": "Outcome",
+        "desc": "Belbott now has a trusted online presence that helps convert leads into bookings. The website supports lead generation, enhances brand trust, and makes it easy for potential clients (residential and commercial) to understand and engage with their wide range of cleaning services."
+      }
+    ]
+  },
+  {
+    "id": "ramesy-writings",
+    "slug":"ramesy-writings",
+    "title": "Ramesy Writings",
+    "title2": "Project Description",
+    "img": "/img/portfolio/ramesy.png",
+    "img1": "/img/portfolio/ramesy.svg",
+    "url": "https://write.belbott.com/", 
+    "detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+    "desc": "Ramesy Writings is a dedicated professional writing service that delivers clear, compelling, and impactful content for individuals, businesses, and organizations. The platform focuses on helping clients communicate their message with confidence and clarity.",
+    "shortDesc": "Website Design and IT Support",
+    "desc1": "Belbott has built its reputation over 10+ years by delivering high-quality, reliable cleaning services for homes, offices, industrial sites, and strata buildings. The company uses eco-friendly products and modern equipment, ensuring each space is spotless, safe, and healthy.",
+    
+
+    "dataFilter": "branding",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Website Design & Development"
+      },
+      {
+        "title": "Client",
+        "desc": "Ramesy Writings"
+      },
+      {
+        "title": "Start Date",
+        "desc": "April 16, 2024"
+      },
+      {
+        "title": "Designer",
+        "desc": "EmpericTech"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Our Solution",
+        "desc": "We designed a clean and professional writing-services website that clearly explains Ramesy’s offerings. The platform highlights structured writing services, personalized support, proofreading, document formatting, and tailored content creation. We ensured simple navigation, strong readability, and easy access for clients seeking writing assistance."
+      },
+      {
+        "title": "Outcome",
+        "desc": "The new website strengthened Ramesy Writing Services’ online presence, made their service list more accessible, and improved trust with clients looking for professional writing support. The business now receives more inquiries, and users find it easier to request customized writing and documentation help."
+      }
+    ]
+  },
+  {
+    "id": "rayz-financial-services",
+    "slug":"rayz-financial-services",
+    "title": "Rayz Financial Services",
+    "title2": "Project Description",
+    "img": "/img/portfolio/rayz.png",
+    "img1": "/img/portfolio/rayz.svg",
+    "url": "https://rayz.com.au/", 
+    "detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+    "desc": "Rayz Financial Services is a trusted mortgage brokerage based in Canberra, Australia, offering expert guidance on home loans, refinancing, and investment property financing.",
+    "shortDesc": "Website Design and IT Support",
+    "desc1": "At Rayz Financial Services, our experienced mortgage brokers provide personalized support throughout the home-buying and refinancing journey. Whether you're a first-time buyer, refinancing your mortgage, or planning an investment property purchase, we guide you through every step — from initial consultation to loan settlement.",
+    
+
+    "dataFilter": "branding",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Website Design & Services"
+      },
+      {
+        "title": "Client",
+        "desc": "Rayz Financial Services"
+      },
+      {
+        "title": "Start Date",
+        "desc": "April 16, 2024"
+      },
+      {
+        "title": "Designer",
+        "desc": "EmpericTech"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Our Solution",
+        "desc": "We developed a modern website for Rayz Financial Services that clearly presents their service offerings including home purchase loans, refinancing, debt consolidation, and investment property loans. The site highlights their expertise, team credentials, and simplified process for customers, making it easy to learn and apply."
+      },
+      {
+        "title": "Outcome",
+        "desc": "The new website helps Rayz build credibility and trust with potential clients. It supports lead generation by showcasing their clear process, lender access, and broker expertise. As a result, Rayz is better positioned to convert website traffic into customer inquiries and long-term mortgage relationships."
+      }
+    ]
+  },
+  {
+    "id": "rayzs-care",
+    "slug":"rayzs-care",
+    "title": "RAYZS Care",
+    "title2": "Project Description",
+    "img": "/img/portfolio/rayzcare.png",
+    "img1": "/img/portfolio/rayzcare.svg",
+    "url": "https://rayzscare.com.au/", 
+    "detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+    "desc": "RAYZS Care is a compassionate NDIS disability support provider offering highly personalized care services in Canberra and surrounding communities.",
+    "shortDesc": "Website Design and IT Support",
+    "desc1": "At RAYZS Care, we deliver tailored NDIS-funded support plans designed around each individual’s needs, aspirations, and life goals. From daily personal care and household assistance to community access, life-skills development, and supported independent living, our team helps participants live their best lives with dignity and independence.",
+    
+
+    "dataFilter": "branding",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Support Services"
+      },
+      {
+        "title": "Client",
+        "desc": "RAYZS Care"
+      },
+      {
+        "title": "Start Date",
+        "desc": "April 25, 2023"
+      },
+      {
+        "title": "Designer",
+        "desc": "EmpericTech"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Our Solution",
+        "desc": "We designed a caring and accessible website for RAYZS Care that highlights their core NDIS supports — including daily personal care, household help, community access, life-skills development, supported independent living, transport support, and plan assistance. The website is user-friendly, informative, and focused on driving trust and plan-driven engagement."
+      },
+      {
+        "title": "Outcome",
+        "desc": "RAYZS Care now presents an engaging online presence that effectively communicates their compassionate services and NDIS expertise. The site helps potential clients and plan managers understand available supports, drives inquiries, and supports growth in their client base. Their web presence now aligns with their mission of responsive, tailored, and empowering care."
+      }
+    ]
+  },
+  {
+    "id": "dream-ladies-collection",
+    "slug":"dream-ladies-collection",
+    "title": "Dream Ladies Collection",
+    "title2": "Project Description",
+    "img": "/img/portfolio/dreamcollection.png",
+    "img1": "/img/portfolio/dreamcollection.svg",
+    "url": "https://dreamladiescollection.com.au/", 
+    "detailsImg": "/img/portfolio/portfolio-details-4.jpg",
+    "desc": "Dream Ladies Collection is an Australian fashion brand specialising in women’s clothing and scrub sets, offering a curated selection of stylish, high-quality garments through its Shopify store.",
+    "shortDesc": "Women’s Fashion & Scrub Apparel",
+    "desc1": "At Dream Ladies Collection, the goal is to provide versatile, well-tailored scrub sets and contemporary women’s outfits for both professional and personal wear. Their product range includes V-neck scrub tops, wide-leg pants, custom sizes, and fashionable coordinate sets, all designed for comfort, style, and functionality.",
+    
+
+    "dataFilter": "branding",
+    "statusItem": [
+      {
+        "title": "Category",
+        "desc": "Shopify Web Design & E-commerce Development"
+      },
+      {
+        "title": "Client",
+        "desc": "Dream Ladies Collection"
+      },
+      {
+        "title": "Start Date",
+        "desc": "November 02, 2025"
+      },
+      {
+        "title": "Designer",
+        "desc": "EmpericTech"
+      }
+    ],
+    "descItems": [
+      {
+        "title": "Our Solution",
+        "desc": "We built a modern, mobile-responsive Shopify store for Dream Ladies Collection, enabling the sale of scrub sets in different styles, sizes, and colour options. The platform supports customized sizing options, highlights featured collections, and includes an intuitive navigation to enhance user shopping experience."
+      },
+      {
+        "title": "Outcome",
+        "desc": "With the new Shopify store, Dream Ladies Collection now has a scalable online presence that drives sales, reaches more nurses and healthcare workers, and provides flexibility for customers to pick size-customized scrubs. The store’s clean layout improves trust and conversion rates."
       }
     ]
   }
