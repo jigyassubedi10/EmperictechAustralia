@@ -62,58 +62,66 @@
     }
   },
   {
-    "id": 2,
-    "title": "Cloud Services",
-    "slug": "cloud-services",
-    "img": "/img/services/Cloud-Services.png",
-    "iconName": "flaticon-ux-design",
-    "location": ["Geelong", "Bellarine Peninsula", "Ballarat", "Bendigo", "Melbourne"],
-    "desc": "At EmpericTech, we are committed to helping you harness the full potential of cloud technology. Our comprehensive cloud support and services are designed to optimize your business operations, enhance scalability, and improve efficiency.",
-    "shortDesc": "Scalable, secure cloud solutions that empower your business.",
-    "servicesInclude": {
-      "title": "Our Services Include",
-      "desc": "We provide comprehensive cloud solutions to keep your systems running efficiently.",
-      "items": [
-        {
-          "title": "Cloud Migration & Management ",
-          "desc": "Seamlessly transition to the cloud and optimize infrastructure."
-        },
-        {
-          "title": "Cloud Security & Backup ",
-          "desc": "Protect cloud assets with robust security and disaster recovery solutions."
-        },
-        {
-          "title": "Cloud Application Development ",
-          "desc": "Build custom cloud-based applications that scale with your business."
-        }
-      ]
-    },
-    "whyChooseUs": {
-      "title": "Why Choose Us?",
-      "desc": "We are committed to delivering exceptional value to our clients through expertise, customization, and continuous support.",
-      "items": [
-        {
-          "title": "Expertise",
-          "desc": "Our team of certified cloud professionals has extensive experience in designing, implementing, and managing cloud solutions."
-        },
-        {
-          "title": "Customisation",
-          "desc": "We provide tailor-made cloud solutions that align with your unique business requirements and goals."
-        },
-        {
-          "title": "Reliability",
-          "desc": "Our robust cloud infrastructure and support services ensure maximum uptime and reliability for your critical business applications."
-        },
-        {
-          "title": "Cost Efficiency",
-          "desc": "We help you optimize your cloud spending with cost-effective solutions and efficient resource management."
-        },
-        {
-          "title": "Continuous Support",
-          "desc": "Our dedicated support team is available around the clock to assist with any cloud-related issues and provide ongoing maintenance."
-        }
-      ]
-    }
+  "id": 9,
+  "slug": "it-outsourcing",
+  "title": "IT & Business Outsourcing",
+  "img": "/img/services/outsourcing.png",
+  "iconName": "flaticon-3d-movie",
+  "location": ["Geelong", "Bellarine Peninsula", "Ballarat", "Bendigo", "Melbourne"],
+  "desc": "At EmpericTech, we offer flexible and cost-effective outsourcing services tailored to meet the evolving demands of modern businesses. From IT and customer support to digital marketing and software development, we act as your extended team to accelerate growth while reducing operational costs.",
+  "shortDesc": "Extend your capabilities with reliable outsourcing solutions.",
+  "servicesInclude": {
+    "title": "Our Services Include",
+    "desc": "We provide dedicated outsourcing services that help you scale quickly and efficiently.",
+    "items": [
+      {
+        "title": "IT Outsourcing",
+        "desc": "Access skilled IT professionals for infrastructure support, software development, and maintenance."
+      },
+      {
+        "title": "Customer Support Outsourcing",
+        "desc": "Enhance customer satisfaction with 24/7 multichannel support solutions."
+      },
+      {
+        "title": "Back Office Support",
+        "desc": "Delegate administrative tasks such as data entry, billing, and HR to streamline operations."
+      },
+      {
+        "title": "Digital Marketing Outsourcing",
+        "desc": "Boost your online presence with outsourced SEO, social media, and content marketing experts."
+      },
+      {
+        "title": "Software Development Outsourcing",
+        "desc": "Leverage our development team to build high-quality, scalable software products."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us?",
+    "desc": "We combine expertise, flexibility, and reliability to deliver outsourcing services that align with your goals.",
+    "items": [
+      {
+        "title": "Skilled Professionals",
+        "desc": "Our team consists of trained experts across various domains ready to support your business needs."
+      },
+      {
+        "title": "Cost Efficiency",
+        "desc": "Reduce overheads and operational costs without compromising quality or delivery timelines."
+      },
+      {
+        "title": "Scalability",
+        "desc": "Quickly scale your team up or down based on demand, ensuring flexibility and agility."
+      },
+      {
+        "title": "Secure Processes",
+        "desc": "We follow strict data security protocols to keep your business information safe and compliant."
+      },
+      {
+        "title": "End-to-End Support",
+        "desc": "From onboarding to project delivery, we stay with you every step of the way to ensure success."
+      }
+    ]
+  }
   },
   {
     "id": 3,
